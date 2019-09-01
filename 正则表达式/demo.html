@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var regex = /(\d{4})-(\d{2})-(\d{2})/;
+        // var string = "2017-06-12";
+        // console.log(regex.exec(string));
+        // // => ["2017-06-12", "2017", "06", "12", index: 0, input: "2017-06-12"]
+        // console.log(RegExp.$1); // "2017"
+        // console.log(RegExp.$2); // "06"
+        // console.log(RegExp.$3); // "12"
+
+        function urlQueryToObject(source) {
+            var keys = {};
+            source.replace(/([^=&]+)=([^&]*)/g, function (full, key, value) {
+                keys[key] = (keys[key] ? keys[key] + ',' : '') + value;
+            });
+            return keys
+        }
+        console.log(urlQueryToObject("a=1&b=2&c=3&d=4"));
+        console.log(urlQueryToObject("a=1&b=2&c=3&d=4"));
+    </script>
+Buddy, you're a boy make a big noise
+
+Playing in the streets gonna be a big man someday
+
+You got mud on your face
+
+You big disgrace
+
+Kicking your can all over the place
+
+Singing
+
+We will, we will rock you
+We will, we will rock you
+
+Buddy you're a young man, hard man
+
+Shouting in the street gonna take on the world someday
+
+You got blood on your face
+
+You big disgrace
+
+Waving your banner all over the place
+
+We will, we will rock you
+
+Singing it now
+
+We will, we will rock you
+
+Buddy you're an old man, poor man
+
+Pleading with your eyes gonna make you some peace some day
+
+You got mud on your face
+
+big disgrace
+
+Somebody better put you back into your place
+
+We will, we will rock you
+
+Sing it
+
+We will, we will rock you
+
+Everybody
+
+We will, we will rock you
+
+We will, we will rock you
+
+Alright
+</body>
+
+</html>
